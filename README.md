@@ -1,4 +1,49 @@
-How to access the application:
+IMPORTANT Note about data format of JSON.
+The JSON file should be appended by "data" Key, otherwise the file will be invalid.
+
+Ex: For the given file, the input should be modified as:
+  {
+	"data" : [{
+		"name" : "banana",
+		"price" : 0.29,
+		"stock" : 20,
+		"updated" : "2014-01-02"
+	}, {
+		"name" : "melon",
+		"price" : 1.01,
+		"stock" : 3,
+		"updated" : "2014-03-28"
+	}, {
+		"name" : "apple",
+		"price" : 1.54,
+		"stock" : 22,
+		"updated" : "2014-02-05"
+	}, {
+		"name" : "pear",
+		"price" : 0.41,
+		"stock" : 12,
+		"updated" : "2014-04-19"
+	}, {
+		"name" : "kumquat",
+		"price" : 0.64,
+		"stock" : 32,
+		"updated" : "2014-06-10"
+	}, {
+		"name" : "orange",
+		"price" : 2.04,
+		"stock" : 19,
+		"updated" : "2014-05-25"
+	}, {
+		"name" : "lemon",
+		"price" : 1.56,
+		"stock" : 9,
+		"updated" : "2014-12-30"
+	}]
+  }
+
+
+
+Accessing the Application:
 
 For uploading a JSON File, user can use the direct link (This can be treated as a home Page):
 http://localhost:8080/grocery-1.0/
